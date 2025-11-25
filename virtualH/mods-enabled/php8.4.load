@@ -1,1 +1,3 @@
-../mods-available/php8.4.load
+# Conflicts: php5
+# Depends: mpm_prefork
+LoadModule php_module /usr/lib/apache2/modules/libphp8.4.so
